@@ -14,7 +14,7 @@ COPY *.cpp .
 COPY *.h .
 COPY *.pro .
 
-RUN qmake hallServer.pro
+RUN qmake gameServer.pro
 RUN make
 
 ENTRYPOINT ["./gameServer"]
